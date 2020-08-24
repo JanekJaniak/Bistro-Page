@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box; /* wlicza border i padding do baxa */
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    margin:0 auto;
+    background-color: grey;
+}
+h1 {
+    font-family:'cookie', 'calibri', 'sans-serif' ;
+    color: #E0B54E;
+    font-size: 5em;
+    position: absolute;
+    bottom: 10%;
+    right:37%;
+}
+#main {
+    margin:0;
+    min-height: 100vh;
+    background-image: url(/img/wew.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#social{
+    text-align: right;
+}
+
+#social img{
+    padding:10px;
+    max-height: 50px;
+}
+ul{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'cookie', 'calibri', 'sans-serif';
+}
+li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
